@@ -291,7 +291,7 @@
       $('body').append(self.$popunder);
 
       if (self.appId && self.url2share){
-        $(".selectionSharer a.facebook").css('display','inline-block');
+        $(".selectionSharer a.facebook").css('display','none');
       }
     };
 
