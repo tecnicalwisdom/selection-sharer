@@ -234,7 +234,7 @@
       var url = 'https://www.facebook.com/dialog/feed?' +
                 'app_id='+self.appId +
                 '&display=popup'+
-                '&caption='+encodeURIComponent(text)+
+                '&description='+encodeURIComponent(text)+
                 '&link='+encodeURIComponent(self.url2share)+
                 '&href='+encodeURIComponent(self.url2share)+
                 '&redirect_uri='+encodeURIComponent(self.url2share);
